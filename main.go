@@ -75,7 +75,6 @@ func startTraining(charName, charClass string) string {
 	for cmd != "skip" {
 		fmt.Print("Введи команду: ")
 		fmt.Scanf("%s\n", &cmd)
-
 		if cmd == "attack" {
 			fmt.Println(attack(charName, charClass))
 		}
